@@ -21,7 +21,7 @@ namespace Insertion_Sort
             {
                 for (int j = i - 1; j >= 0; j--)
                 {
-                    if (ary[j] > ary[j + 1])
+                    if (ary[j] > ary[j + 1]) // to change it to descending order, just change > to <
                     {
                         temp = ary[j + 1];
                         ary[j + 1] = ary[j];
