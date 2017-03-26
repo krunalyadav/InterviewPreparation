@@ -27,6 +27,8 @@ namespace Insertion_Sort
                         ary[j + 1] = ary[j];
                         ary[j] = temp;
                     }
+                    else
+                        break;
                 }
             }
 
